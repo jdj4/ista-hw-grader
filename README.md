@@ -1,6 +1,6 @@
 # ISTA HW Grader
 
-Autograder script for grading homework assignments for ISTA 130, 131, and 350. Place the `ista-hw` file on the PATH, make it executable, and run it through the terminal with the flag `-m` to build the filesystem and `-g` to run the autograder (needs to be provided separately). These commands run the other two Python scripts.
+Autograder script for grading homework assignments for ISTA 130, 131, and 350. This was made since the in-house grading script is not compatible with Linux. Place the `ista-hw` file on the PATH, make it executable, and run it through the terminal with the flag `-m` to build the filesystem and `-g` to run the autograder (needs to be provided separately). These commands run the other two Python scripts.
 
 ### Usage
 

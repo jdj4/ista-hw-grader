@@ -1,19 +1,5 @@
 import os, re, sys, shutil
 
-'''
-PATHS = {
-    'hw1': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW1/Grading',
-    'hw2': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW2/Grading',
-    'hw3': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW3/Grading',
-    'hw4': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW4/Grading',
-    'hw5': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW5/Grading',
-    'hw6': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW6/Grading',
-    'hw7': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW7/Grading',
-    'hw8': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW8/Grading',
-    'final': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Final Project',
-}
-'''
-
 # Files to explicitly exclude from any processing
 EXCL = []
 

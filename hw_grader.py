@@ -1,20 +1,5 @@
 import os
 
-'''
-This is redundant but keeping it just in case. Would need to be updated every
-semester.
-PATHS = {
-    'hw1': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW1/Grading',
-    'hw2': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW2/Grading',
-    'hw3': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW3/Grading',
-    'hw4': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW4/Grading',
-    'hw5': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW5/Grading',
-    'hw6': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW6/Grading',
-    'hw7': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW7/Grading',
-    'hw8': '/home/jpc/Documents/5 - Fall 2024/ISTA 131 SL/Homework/HW8/Grading',
-}
-'''
-
 def is_student_directory(filename: str) -> bool:
     if filename == '__pycache__' or '.' in filename:
         return False

@@ -5,7 +5,7 @@ EXCL = []
 
 def get_files(filenames: list[str]) -> (list[str], list[str], list[str]):
     file_data = ' '.join(filenames)
-    pattern = re.compile(r"\b([a-zA-Z'-]+(?: [a-zA-Z'-]+){1,2})(?=- )\b")
+    pattern = re.compile(r"\b([a-zA-Z'-]+(?: [a-zA-Z'-]+){1,3})(?=- )\b")
     names = pattern.findall(file_data)
     submissions = []
     for filename in filenames:

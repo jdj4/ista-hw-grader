@@ -17,7 +17,10 @@ def grade_submission(hw: str, student: str) -> None:
     os.chdir('..')
 
 def main() -> None:
-    hw = input('What homework is this? (hw1, hw2, etc.): ')
+    if len(sys.argv) > 2:
+        hw = sys.argv[2]
+    else:
+        hw = input('What homework is this? (hw1, hw2, etc.): ')
     student_directories = [fname for fname in os.listdir() if is_student_directory(fname)]
     for student in student_directories:
         grade_submission(hw, student)

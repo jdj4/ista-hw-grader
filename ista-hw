@@ -6,7 +6,7 @@ import hw_grader
 
 def main() -> None:
     usage_message = 'Usage: ista-hw -m (for making the filesystem) OR ista_hw -g (for grading)'
-    if len(argv) != 2:
+    if len(argv) < 2 or len(argv) > 3:
         print(usage_message)
     elif argv[1] == '-m':
         hw_organizer.main()

@@ -40,7 +40,10 @@ def move_files(
         os.remove(filename)
 
 def main() -> None:
-    hw = input('Which homework is this? (hw0, hw1, hw2, etc.): ')
+    if len(sys.argv) > 2:
+        hw = sys.argv[2]
+    else:
+        hw = input('What homework is this? (hw1, hw2, etc.): ')
     zipfile = input('Enter name of submissions zip file: ')
     os.system(f"unzip '{zipfile}'")
     if 'index.html' in os.listdir():
